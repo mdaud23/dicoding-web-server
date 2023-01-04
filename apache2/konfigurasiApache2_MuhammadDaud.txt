@@ -1,0 +1,18 @@
+<VirtualHost *:3000>
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+
+	ProxyPass / http://localhost:8000/
+	# selanjutnya:
+	# cd /etc/apache2/sites-enabled/
+	# sudo a2enmod
+	# proxy
+	# proxy_http
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
