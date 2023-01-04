@@ -1,4 +1,4 @@
-##NGINX Web Server
+## NGINX Web Server
 
 ### Step 1 - Installing NGINX
 ```

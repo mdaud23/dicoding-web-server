@@ -29,7 +29,7 @@ cd /etc/apache2/
 ```
 
 ### Reverse Proxy 
-
+In `/etc/apache2/sites-enabled/
 ```
 a2enmod
 proxy
