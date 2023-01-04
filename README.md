@@ -1,19 +1,28 @@
-# A387-Jarkom-Labs
+# TUgas Akhir Modul Jaringan Dicoding
 
-Untuk menjalankan project ini, pastikan `npm` sudah terinstall pada komputer/laptop Anda.
-
----
-
-Tata cara menjalankan project:
-
-1. Install node modules
+## Installing node.js and npm
 
 ```
-npm install
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+sudo bash /tmp/nodesource_setup.sh
 ```
 
-2. Jalankan project
+```
+sudo apt install nodejs
+```
 
 ```
 npm run start
+```
+
+```
+ifconfig
+hostname -I
+```
+
+```
+ufw status
+ufw enable
+ufw allow 3000/http
 ```
