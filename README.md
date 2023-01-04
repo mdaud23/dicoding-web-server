@@ -1,6 +1,6 @@
-# TUgas Akhir Modul Jaringan Dicoding
+## Tugas Akhir Modul Jaringan Dicoding
 
-## Installing node.js and npm
+### Installing node.js and npm
 
 ```
 cd ~
